@@ -1,0 +1,29 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font: normal normal normal 13px/15px Arial;
+  background-color: $gray-f8;
+}
+
+// reset
+button {
+  border: none;
+  box-shadow: none;
+  background-color: initial;
+}
+
+//common classes
+.container {
+  max-width: 1600px;
+  margin: 0 auto;
+}

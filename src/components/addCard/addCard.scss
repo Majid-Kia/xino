@@ -1,0 +1,14 @@
+button {
+  width: 140px;
+  height: 50px;
+  border: 5px solid $gray-light;
+  border-radius: 21px;
+  @include flex-center;
+  font-size: 20px;
+  color: $black-43;
+  cursor: pointer;
+  transition: 300ms;
+  &:hover {
+    border-color: darken($gray-light, 15%);
+  }
+}
